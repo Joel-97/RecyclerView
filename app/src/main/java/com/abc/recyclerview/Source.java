@@ -1,7 +1,9 @@
 package com.abc.recyclerview;
 
+//Source es un pojo
+
 public class Source {
-    private final String title;
+    private final String title; //title == es un objeto Immutable, o sea, no se puede modificar
     private final int image;
 
     /**

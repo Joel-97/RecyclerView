@@ -54,7 +54,7 @@ public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickL
         //segunda parte
         if (v.getId() == button1.getId()) {
             Toast.makeText(button1.getContext(),
-                    "Click on option one, item " + position + " for title " + source.getTitle()
+                    "Click en la opcion uno, item " + (position+1) + " para el titulo " + source.getTitle()
                     , Toast.LENGTH_SHORT).show();
         } else {
             Toast.makeText(button2.getContext(),
